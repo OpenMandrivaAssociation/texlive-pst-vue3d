@@ -53,6 +53,7 @@ distribution includes a comprehensive set of examples of usage.
 %doc %{_texmfdistdir}/doc/generic/pst-vue3d/pst-vue3d-doc.tex
 #- source
 %doc %{_texmfdistdir}/source/generic/pst-vue3d/Makefile
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ distribution includes a comprehensive set of examples of usage.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
