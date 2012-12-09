@@ -54,3 +54,17 @@ distribution includes a comprehensive set of examples of usage.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.24-2
++ Revision: 755519
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.24-1
++ Revision: 719407
+- texlive-pst-vue3d
+- texlive-pst-vue3d
+- texlive-pst-vue3d
+- texlive-pst-vue3d
+
