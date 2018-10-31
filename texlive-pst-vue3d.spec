@@ -6,7 +6,7 @@
 # catalog-version 1.24
 Name:		texlive-pst-vue3d
 Version:	1.24
-Release:	10
+Release:	11
 Summary:	Draw perspective views of three dimensional objects
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-vue3d
