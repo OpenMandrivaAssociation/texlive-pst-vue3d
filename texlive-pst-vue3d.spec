@@ -9,7 +9,7 @@ Version:	1.24
 Release:	12
 Summary:	Draw perspective views of three dimensional objects
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-vue3d
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-vue3d
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-vue3d.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-vue3d.doc.tar.xz
